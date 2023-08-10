@@ -39,6 +39,9 @@ header a {
     font-weight: bold;
     text-decoration: none;
 }
+header a:hover{
+    text-decoration: underline;
+}
 
 main p {
     font: normal 67px/134.4px 'Sriracha', cursive; 
@@ -54,6 +57,9 @@ section {
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 3.5vw;
+}
+section > p {
+    padding-bottom: 2em;
 }
 section.poesia1{
 background-color: white;
